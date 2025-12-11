@@ -12,7 +12,7 @@
          </titleStmt>
          <publicationStmt>
             <publisher>University of Antwerp</publisher>
-            <date>8 December 2023</date>
+            <date>11 December 2025</date>
             <availability>
                <licence target="https://iiif.bodleian.ox.ac.uk/iiif/mirador/53fd0f29-d482-46e1-aa9d-37829b49987d">
                   <p>Original text by Mary Shelley (1816). Public domain, under a CC-BY-NC 4.0 licence.</p>
@@ -35,6 +35,7 @@
             <pb facs="#p21r"/>
             <head>
                Chapter 7<hi rend="sup"><hi rend="u">th</hi></hi><metamark function="pagenumber"><num><hi rend="circled">75</hi></num></metamark>
+               <metamark function="pagenumber"><num><hi rend="pencil">21</hi></num></metamark>
             </head>
             <p>
                It was on a dreary night of November<lb/>
@@ -63,7 +64,7 @@
                <del type="crossedOut" hand="#MWS" rend="blackink">handsome</del> <add place="marginleft" hand="#PBS" rend="blackink">beautiful</add><del type="crossedOut" hand="#PBS" rend="blackink"><add place="marginleft" hand="#MWS" rend="blackink">handsome</add></del>. <del type="crossedOut" hand="#PBS" rend="blackink">Handsome</del><add place="supralinear" hand="#PBS" rend="blackink">beautiful</add>; Great God! His<lb/>
                <del type="crossedOut" hand="#MWS" rend="blackink">dun</del> <add place="marginleft" hand="#MWS" rend="blackink">yellow</add> skin scarcely covered the work of<lb/>
                muscles and arteries beneath; his hair<lb/>
-               was <add place="marginleft" hand="#MWS" rend="blackink">of a lustrous black &amp;</add><add>^</add> flowing and his teeth of a pearly white<lb/>
+               was <add place="marginleft" hand="#MWS" rend="blackink">of a lustrous black &amp;</add><add place="infralinear" hand="MWS" rend="blackink">^</add> flowing and his teeth of a pearly white<lb/>
                ness but these luxurianc<add place="intralinear" hand="#MWS" rend="blackink">i</add>es only <del type="crossedOut" hand="#MWS" rend="blackink">fomed</del><lb/>
                formed a more horrid contrast with<lb/>
                his watry eyes that seemed almost of<lb/>
