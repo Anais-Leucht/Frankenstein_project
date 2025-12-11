@@ -11,7 +11,7 @@
       </titleStmt>
       <publicationStmt>
         <publisher>University of Antwerp</publisher>
-        <date>8 December 2023</date>
+        <date>11 December 2025</date>
         <availability>
           <licence target="https://iiif.bodleian.ox.ac.uk/iiif/mirador/53fd0f29-d482-46e1-aa9d-37829b49987d">
             <p>Original text by Mary Shelley (1816). Public domain, under a CC-BY-NC 4.0 licence.</p>
@@ -33,6 +33,7 @@
       <div type="page" n="22v" rend="recto">
         <pb facs="#p22r"/>
         <metamark function="pagenumber"><num><hi rend="circled">77</hi></num></metamark>
+        <metamark function="pagenumber"><num><hi rend="pencil">22</hi></num></metamark>
       <p>
          to change and I thought that I held <lb/>
          the corpse of my dead mother in my arms 
@@ -83,13 +84,16 @@
           </add>
           and his eyes; if eyes
         <lb/>
-        they may be called, were fixed on me – His<lb/>
+        they may be called, 
+        <add place="infralinear" hand="#MWS" rend="blackink"><metamark>-</metamark>
+            <note>'-'is used as metamark, a thick line is used</note>
+          </add>were fixed on me – His<lb/>
         <add place="marginleft" hand="#PBS" rend="blackink">inarticulate</add>jaws opened and he muttered <add place="supralinear" hand="#PBS" rend="blackink">in</add> some <del type="crossedOut" hand="#MWS" rend="blackink">words</del><lb/>
         <add place="marginleft" hand="#PBS" rend="blackink">sounds</add>while a grin wrinkled his cheeks. He<lb/>
-        he might have spoken but I did not<lb/>
+        might have spoken but I did not<lb/>
         hear — one <choice><sic>had</sic><corr>hand</corr></choice> was stretched out<lb/>
         to detain me but I escaped and <del type="crossedOut" hand="#PBS" rend="blackink">ran</del><lb/>
-        rushed down <del type="crossedOut" hand="#PBS" rend="blackink"><add place="supralinear" hand="#PBS" rend="blackink">the</add></del> stairs I took refuge in<lb/>
+        rushed down <del type="crossedOut" hand="#PBS" rend="blackink"><add place="supralinear" hand="#PBS" rend="blackink">the</add></del> stair s<del type="crossedOut" hand="#PBS" rend="blackink">case</del> I took refuge in<lb/>
         a court-yard belonging to the house<lb/>
         which I inhabited; where I remained<lb/>
         <add place="marginleft" hand="#PBS" rend="blackink">during</add>the rest of the night walking up and<lb/>
@@ -102,7 +106,7 @@
         the horror of that countenance.a<lb/>
         mummy
         <metamark>&#8257;</metamark>
-        <add place="margintop" hand="#MWS" rend="blackink">again</add>
+        <add place="supralinear" hand="#MWS" rend="blackink">again</add>
         endued with 
         <del type="crossedOut" hand="#MWS" rend="blackink">life</del>
         <add place="supralinear" hand="#MWS" rend="blackink">animation</add> 
