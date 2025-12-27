@@ -25,7 +25,7 @@
                bound in Notebook A, one of two now disbound notebooks in which Mary W. Shelley 
                (MWS) drafted the two-volume version of Frankenstein. The draft in c.56 runs 
                from the beginning to the end of Volume I, concluding just as the Creature is 
-               about to begin his tale to Victor. </p>
+               about to begin his tale to Victor. On page 79, Victor goes for a walk. </p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
@@ -35,6 +35,7 @@
             <pb facs="#p23r"/>
                    
             <metamark function="pagenumber"><num><hi rend="circled">79</hi></num></metamark>
+            <metamark function="pagenumber"><num><hi rend="pencil">23</hi></num></metamark>
             <p>
                my view. I did not dare <del type="crossedOut" hand="#MWS" rend="blackink">to</del> return<lb/>
                to the appartment <metamark>&#8257;</metamark><add place="supralinear" hand="#MWS" rend="blackink">which</add> I inhabited but<lb/>

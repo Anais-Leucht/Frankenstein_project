@@ -25,7 +25,7 @@
                bound in Notebook A, one of two now disbound notebooks in which Mary W. Shelley 
                (MWS) drafted the two-volume version of Frankenstein. The draft in c.56 runs 
                from the beginning to the end of Volume I, concluding just as the Creature is 
-               about to begin his tale to Victor.</p>
+               about to begin his tale to Victor. On page 81, Henry notices Victor's condition. </p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
@@ -34,6 +34,7 @@
          <div type="page" n="24r" rend="recto">
             <pb facs="#p24r"/>
                <metamark function="pagenumber"><num><hi rend="circled">81</hi></num></metamark>
+               <metamark function="pagenumber"><num><hi rend="pencil">24</hi></num></metamark>
             <p>
                "and Indeed I believe I left him<lb/>
                "incredulous to the last for his con<lb/>
