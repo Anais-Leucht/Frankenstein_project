@@ -42,7 +42,7 @@
     </xsl:template>
     
     <xsl:template match="tei:div">
-        <div class="#MWS"><xsl:apply-templates/></div>
+        <div class="MWS"><xsl:apply-templates/></div>
     </xsl:template>
     
     <xsl:template match="tei:p">
@@ -55,7 +55,7 @@
             <xsl:apply-templates/>
         </span>
     </xsl:template>
-    
+
     
     <xsl:template match="tei:del">
         <del>
@@ -107,6 +107,12 @@
     <xsl:template match="tei:add[@place='overwritten']">
         <span class="overwritten">
             <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+
+    <xsl:template match="tei:pb">
+        <span class="circledPage">
+            <xsl:value-of select="@n"/>
         </span>
     </xsl:template>
 
