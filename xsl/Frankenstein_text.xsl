@@ -14,7 +14,7 @@
             <head>
                 <meta charset="UTF-8"/>
                 <title>TEI Document</title>
-                <link rel="stylesheet" href="/Frankenstein_template-1-/css/style.css"/>
+                <link rel="stylesheet" href="../css/style.css"/>
             </head>
             <body>
                 <xsl:call-template name="render-meta"/>
