@@ -89,4 +89,9 @@ body.index-page .col {
     max-width: 800px;
 }
 
+#mirador {
+  height: 500px;   /* adjust as needed */
+  width: 100%;
+}
+
 
