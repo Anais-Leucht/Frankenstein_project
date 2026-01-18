@@ -13,7 +13,7 @@
         <div id="mirador" style="width: 100%; height: 600px;"></div>
         <meta charset="UTF-8"/>
         <title>Frankenstein TEI Edition</title>
-        <link rel="stylesheet" href="../css/style.css"/>
+        <link rel="stylesheet" href="..css/style.css"/>
         <link rel="stylesheet" href="https://unpkg.com/mirador/dist/mirador.min.css"/>
         <script src="https://unpkg.com/mirador/dist/mirador.min.js"></script>
       </head>
