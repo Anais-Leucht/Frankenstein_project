@@ -1,5 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
+<html xmlns:tei="http://www.tei-c.org/ns/1.0">
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -14,12 +13,12 @@
     <title>Frankenstein Edition</title>
     <link href="../css/style.css" rel="stylesheet">
   </head>
-  <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">Frankenstein</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+   <body>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+         <a class="navbar-brand" href="#">Frankenstein</a>
+         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+         </button>
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav">
           <a class="nav-link" href="/index.html">Home</a>
@@ -43,28 +42,89 @@
         </ul>
       </div>
     </nav>
-    <div class="container-fluid">
-      <h1>Frankenstein Volume I Draft in Chapter Sequence</h1>
-      <span style="visibility:hidden" id='page'>44</span>
-      <h2 id='folio'>21r</h2> <!-- you can style this h2 element differently, but you should keep the id="folio" and the elements value *unchanged* -->
-      <div id="stats"></div>
-      <div class="form-group">
-        <select class="form-control" id="sel-hand" onChange="selectHand(event)">
-          <option value="both">Both Hands</option>
-          <option value="Mary">Mary Shelley's Hand Highlighted</option>
-          <option value="Percy">Percy Shelley's Hand Highlighted</option>
-        </select>
+      <div class="tei-header">
+         <h2>About this Manuscript</h2>
+         <table class="metadata">
+            <tr>
+               <th>Title</th>
+               <td>Frankenstein</td>
+            </tr>
+            <tr>
+               <th>Author</th>
+               <td>Mary Wollstonecraft Shelley</td>
+            </tr>
+            <tr>
+               <th>Editor</th>
+               <td>Percy Bysshe Shelley</td>
+            </tr>
+            <tr>
+               <th>Licence</th>
+               <td>
+                  Original text by Mary Shelley (1816). Public domain, under a CC-BY-NC 4.0 licence.
+                  
+               </td>
+            </tr>
+         </table>
+         <ul>
+            <li>Total modifications: 29</li>
+            <li>Total additions: 14</li>
+            <li>Mary: 12</li>
+            <li>Percy: 16</li>
+         </ul>
       </div>
-      <div class="row">
-        <div class="col-5">   
-            <div id="my-mirador"></div>
-        </div>
-        <div class="col-7" id="text"></div>
+      <div class="tei-body">
+         
+         <div class="tei-div">
+            <span class="circledPage"></span>
+            
+            Chapter 7<sup><span class="u">th</span></sup><span class="circled">75</span>
+            <span class="pencil">21</span>
+            
+            
+            <p>
+               It was on a dreary night of November<br>
+               that I beheld <del class="#PBS"><span class="supraAdd">the frame on whic</span></del> my man comple<del class="#PBS">at</del><span class="overwritten">te</span>ed<del class="#PBS">.</del><span class="overwritten">,</span> <del class="#PBS">And</del><br>
+               with an anxiety that almost amount<br>
+               ed to agony I collected instruments of life<br>
+               around me <del class="#MWS">and endeavour to</del> <span class="supraAdd">that I might</span> <del class="#PBS">e</del><span class="overwritten">i</span>nfuse a<br>
+               spark of being into the lifeless thin<del class="#MWS">k</del><span class="overwritten">g</span><br>
+               that lay at my feet. It was already<br>
+               one in the morning, the rain pattered<br>
+               dismally against the window panes, &amp;<br>
+               my candle was nearly burnt out, when<br>
+               by the glimmer of the half extinguish<br>
+               ed light I saw the dull yellow eye of<br>
+               the creature open<del class="#PBS">.</del><span class="overwritten">—</span>It breathed hard,<br>
+               and a convulsive motion agitated<br>
+               its limbs.
+               
+            </p>
+            
+            <p>
+               <span class="indented"><del class="#MWS">But how</del> How can I describe my</span><br>
+               emotion at this catastrophe; or how deli<br>
+               neate the wretch whom with such<br>
+               infinite pains and care I had endeavoured<br>
+               to form. His limbs were in proportion<br>
+               and I had selected his features <del class="#MWS">h</del> as<br>
+               <del class="#MWS">handsome</del> <span class="marginAdd">beautiful</span><del class="#PBS"><span class="marginAdd">handsome</span></del>. <del class="#PBS">Handsome</del><span class="supraAdd">beautiful</span>; Great God! His<br>
+               <del class="#MWS">dun</del> <span class="marginAdd">yellow</span> skin scarcely covered the work of<br>
+               muscles and arteries beneath; his hair<br>
+               was ⁁<span class="marginAdd">of a lustrous black &amp;</span>^ flowing and his teeth of a pearly white<br>
+               ness but these luxuriancies only <del class="#MWS">fomed</del><br>
+               formed a more horrid contrast with<br>
+               his watry eyes that seemed almost of<br>
+               the same colour as the dun white<br>
+               sockets in which they were set,<br>
+               
+            </p>
+            
+         </div>
+         
       </div>
-    </div>
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src="/js/script.js"></script>
-  </body>
+   </body>
 </html>

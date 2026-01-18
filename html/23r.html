@@ -1,5 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
+<html xmlns:tei="http://www.tei-c.org/ns/1.0">
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8".>
@@ -14,10 +13,10 @@
     <title>Frankenstein Edition</title>
     <link href="/css/style.css" rel="stylesheet">
   </head>
-  <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">Frankenstein</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+   <body>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+         <a class="navbar-brand" href="#">Frankenstein</a>
+         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
@@ -43,28 +42,95 @@
         </ul>
       </div>
     </nav>
-    <div class="container-fluid">
-      <h1>Frankenstein Volume I Draft in Chapter Sequence</h1>
-      <span style="visibility:hidden" id='page'>47</span>
-      <h2 id='folio'>23r</h2> <!-- you can style this h2 element differently, but you should keep the id="folio" and the elements value *unchanged* -->
-      <div id="stats"></div>
-      <div class="form-group">
-        <select class="form-control" id="sel-hand" onChange="selectHand(event)">
-          <option value="both">Both Hands</option>
-          <option value="Mary">Mary Shelley's Hand Highlighted</option>
-          <option value="Percy">Percy Shelley's Hand Highlighted</option>
-        </select>
+      <div class="tei-header">
+         <h2>About this Manuscript</h2>
+         <table class="metadata">
+            <tr>
+               <th>Title</th>
+               <td>Frankenstein</td>
+            </tr>
+            <tr>
+               <th>Author</th>
+               <td>Mary Wollstonecraft Shelley</td>
+            </tr>
+            <tr>
+               <th>Editor</th>
+               <td>Percy Bysshe Shelley</td>
+            </tr>
+            <tr>
+               <th>Licence</th>
+               <td>
+                  Original text by Mary Shelley (1816). Public domain, under a CC-BY-NC 4.0 licence.
+                  
+               </td>
+            </tr>
+         </table>
+         <ul>
+            <li>Total modifications: 13</li>
+            <li>Total additions: 6</li>
+            <li>Mary: 9</li>
+            <li>Percy: 3</li>
+         </ul>
       </div>
-      <div class="row">
-        <div class="col-5">   
-            <div id="my-mirador"></div>
-        </div>
-        <div class="col-7" id="text"></div>
+      <div class="tei-body">
+         
+         <div class="tei-div">
+            <span class="circledPage"></span>
+            
+            <span class="circled">79</span>
+            <span class="pencil">23</span>
+            
+            <p>
+               my view. I did not dare <del class="#MWS">to</del> return<br>
+               to the appartment ⁁<span class="supraAdd">which</span> I inhabited but<br>
+               felt impelled to hurry on although<br>
+               wetted by the <del class="#MWS">drizzling</del> rain which poured<br>
+               from a black and comfortless sky.<br>
+               
+            </p>
+            
+            <p>
+               <span class="indented">I continued walking in this manner </span><br>
+               for some time endeavouring by bodily<br>
+               excercise to ease the load that weighed<br>
+               upon my mind. I traversed the streets<br>
+               without any clear conception of where<br>
+               I was or what I was doing: my heart<br>
+               palpitated ⁁<del class="#PBS">with</del><span class="supraAdd">in the sickness of</span> fear and I hurried<br>
+               on with irregular steps not daring<br>
+               to look about me,<br>
+               
+            </p>
+            "Like one who on a lon<del class="#MWS">s</del>esome road
+            "doth wak in fear and dread
+            "and having once turned round
+            <span class="supraAdd">walks on</span>
+            <del class="#MWS">wal</del>And turns no more his head
+            Because he knows a frightful
+            fiend
+            "doth close behind hum tread."*<span class="marginAdd">*Coleridge's<br>"Ancient Mariner.'</span>
+            
+            <p>
+               Continueing thus, I came at lenght<br>
+               <del class="#PBS">opposite</del><span class="supraAdd">opposite to</span> the Inn at which the dili<br>
+               -gences and carriages usually stopped. Here<br>
+               I paused I knew not why but remained<br>
+               some minutes with my eyes fixed on<br>
+               a coach that was coming towards me<br>
+               from the other end of the street.<br>
+               As ⁁<del class="#MWS">I</del><span class="supraAdd">it</span> drew nearer I observed that it<br>
+               was the Swiss diligence; it stopped<br>
+               just where I was standing, and on<br>
+               
+               
+            </p>
+            
+         </div>
+         
       </div>
-    </div>
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src="/js/script.js"></script>
-  </body>
+   </body>
 </html>

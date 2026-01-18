@@ -1,5 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
+<html xmlns:tei="http://www.tei-c.org/ns/1.0">
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8".>
@@ -14,10 +13,10 @@
     <title>Frankenstein Edition</title>
     <link href="/css/style.css" rel="stylesheet">
   </head>
-  <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">Frankenstein</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+   <body>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+         <a class="navbar-brand" href="#">Frankenstein</a>
+         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
@@ -43,28 +42,78 @@
         </ul>
       </div>
     </nav>
-    <div class="container-fluid">
-      <h1>Frankenstein Volume I Draft in Chapter Sequence</h1>
-      <span style="visibility:hidden" id='page'>45</span>
-      <h2 id='folio'>21v</h2> <!-- you can style this h2 element differently, but you should keep the id="folio" and the elements value *unchanged* -->
-      <div id="stats"></div>
-      <div class="form-group">
-        <select class="form-control" id="sel-hand" onChange="selectHand(event)">
-          <option value="both">Both Hands</option>
-          <option value="Mary">Mary Shelley's Hand Highlighted</option>
-          <option value="Percy">Percy Shelley's Hand Highlighted</option>
-        </select>
+      <div class="tei-header">
+         <h2>About this Manuscript</h2>
+         <table class="metadata">
+            <tr>
+               <th>Title</th>
+               <td>Frankenstein</td>
+            </tr>
+            <tr>
+               <th>Author</th>
+               <td>Mary Wollstonecraft Shelley</td>
+            </tr>
+            <tr>
+               <th>Editor</th>
+               <td>Percy Bysshe Shelley</td>
+            </tr>
+            <tr>
+               <th>Licence</th>
+               <td>
+                  Original text by Mary Shelley (1816). Public domain, under a CC-BY-NC 4.0 licence.
+                  
+               </td>
+            </tr>
+         </table>
+         <ul>
+            <li>Total modifications: 12</li>
+            <li>Total additions: 6</li>
+            <li>Mary: 12</li>
+            <li>Percy: 0</li>
+         </ul>
       </div>
-      <div class="row">
-        <div class="col-5">   
-            <div id="my-mirador"></div>
-        </div>
-        <div class="col-7" id="text"></div>
+      <div class="tei-body">
+         
+         <div class="tei-div">
+            <span class="circledPage"></span>
+            <span class="circled">76</span>
+            
+            <p>his shrivelled complexion and strait<br>
+               black lips.<br></p> 
+            
+            <p>The different accidents of life are<br>
+               not so changeable at the feelings of hu<br>
+               man nature. I had worked hard for<br>
+               nearly two years for the sole purpose<br>
+               of infusing <del class="#MWS">f</del> life into an inanimate<br>
+               body. For this I had deprived myself of<br>
+               rest and <del class="#MWS">heath</del> health. I had desired<br>
+               it with an ardour that far exceeded<br>
+               moderation; but now that I had succeed<br>
+               ed these dreams vanished and breathless<br>
+               horror and disgust filled my heart.<br> 
+               Unable^<span class="supraAdd">to endure</span> the aspect of the <del class="#MWS">creature</del><span class="supraAdd">being</span> I<br>
+               had created, I rushed out of the room and<br>
+               <del class="#MWS">remained</del><span class="supraAdd">continued</span> a long time traversing my<br>
+               bed chamber unable to compose my<br>
+               mind to sleep. At length <del class="#MWS">s</del> I assitude<br>
+               succeeded to the tumult I had before<br>
+               endured, and I threw myself on my<br>
+               bed in my clothes endeavouring to seek<br>
+               a <del class="#MWS">feew</del> few moments of forgetfullness.<br> 
+               But it was in vain; I slept indeed but<br>
+               I was disturbed by the wildest dreams-<br>
+               I saw Elizabeth⁁^<span class="supraAdd">in the bloom of health</span> walking in the streets of<br>
+               Ingolstadt; delighted &amp; surprised I embraced<br>
+               her but as I imprinted the first kiss<br>
+               on her lips they became lurid with<br>
+               the hue of death; her features appeared<br></p>
+         </div>
+         
       </div>
-    </div>
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src="/js/script.js"></script>
-  </body>
+   </body>
 </html>

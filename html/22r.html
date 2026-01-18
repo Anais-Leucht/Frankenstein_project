@@ -1,5 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
+<html xmlns:tei="http://www.tei-c.org/ns/1.0">
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8".>
@@ -14,10 +13,10 @@
     <title>Frankenstein Edition</title>
     <link href="/css/style.css" rel="stylesheet">
   </head>
-  <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">Frankenstein</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+   <body>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+         <a class="navbar-brand" href="#">Frankenstein</a>
+         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
@@ -43,28 +42,122 @@
         </ul>
       </div>
     </nav>
-    <div class="container-fluid">
-      <h1>Frankenstein Volume I Draft in Chapter Sequence</h1>
-      <span style="visibility:hidden" id='page'>46</span>
-      <h2 id='folio'>22r</h2> <!-- you can style this h2 element differently, but you should keep the id="folio" and the elements value *unchanged* -->
-      <div id="stats"></div>
-      <div class="form-group">
-        <select class="form-control" id="sel-hand" onChange="selectHand(event)">
-          <option value="both">Both Hands</option>
-          <option value="Mary">Mary Shelley's Hand Highlighted</option>
-          <option value="Percy">Percy Shelley's Hand Highlighted</option>
-        </select>
+      <div class="tei-header">
+         <h2>About this Manuscript</h2>
+         <table class="metadata">
+            <tr>
+               <th>Title</th>
+               <td>Frankenstein</td>
+            </tr>
+            <tr>
+               <th>Author</th>
+               <td>Mary Wollstonecraft Shelley</td>
+            </tr>
+            <tr>
+               <th>Editor</th>
+               <td>Percy Bysshe Shelley</td>
+            </tr>
+            <tr>
+               <th>Licence</th>
+               <td>
+                  Original text by Mary Shelley (1816). Public domain, under a CC-BY-NC 4.0 licence.
+                  
+               </td>
+            </tr>
+         </table>
+         <ul>
+            <li>Total modifications: 31</li>
+            <li>Total additions: 18</li>
+            <li>Mary: 21</li>
+            <li>Percy: 10</li>
+         </ul>
       </div>
-      <div class="row">
-        <div class="col-5">   
-            <div id="my-mirador"></div>
-        </div>
-        <div class="col-7" id="text"></div>
+      <div class="tei-body">
+         
+         <div class="tei-div">
+            <span class="circledPage"></span>
+            <span class="circled">77</span>
+            <span class="pencil">22</span>
+            
+            <p>
+               to change and I thought that I held <br>
+               the corpse of my dead mother in my arms 
+               <del class="#MWS">,</del>
+               :
+               <br>
+               
+               <del class="#MWS">a</del> 
+               A
+               shroud envolepped her form &amp; I saw 
+               <br>
+               the grave worms crawling in the folds of<br>
+               the flannel; I started 
+               
+               '^' is used as metamark, close visual resemblance
+               <span class="supraAdd">from my sleep</span>
+               with horror, a
+               <br>
+               <del class="#MWS">when I saw</del>
+               cold dew covered my forehead
+               <br>
+               my teeth 
+               <del class="#MWS">ah</del>
+               chattered and every limb
+               <br>
+               
+               <del class="#MWS">was</del>
+               <span class="supraAdd">became</span>
+               convul
+               <del class="#MWS"></del>
+               s
+               ed, when, by the dim and
+               <br>
+               yellow light of the moon as it forced<br>
+               its way through the window shutters, I<br>
+               beheld the wretch — the miserable<br>
+               monster whom I had created;
+               -
+               '-'is used as metamark, a thick line is used
+               
+               he hel
+               <del class="#MWS"></del>
+               d
+               <br>
+               up the curtain, 
+               -
+               '-'is used as metamark, a thick line is used
+               
+               and his eyes; if eyes
+               <br>
+               they may be called, 
+               -
+               '-'is used as metamark, a thick line is used
+               were fixed on me – His<br>
+               <span class="marginAdd">inarticulate</span>jaws opened and he muttered <span class="supraAdd">in</span> some <del class="#MWS">words</del><br>
+               <span class="marginAdd">sounds</span>while a grin wrinkled his cheeks. He<br>
+               might have spoken but I did not<br>
+               hear — one hadhand was stretched out<br>
+               to detain me but I escaped and <del class="#PBS">ran</del><br>
+               rushed down <del class="#PBS"><span class="supraAdd">the</span></del> stair s<del class="#PBS">case</del> I took refuge in<br>
+               a court-yard belonging to the house<br>
+               which I inhabited; where I remained<br>
+               <span class="marginAdd">during</span>the rest of the night walking up and<br>
+               down in the greatest agitation; listen<br>
+               ing attentively, catching and fearing each<br>
+               sound as if it were to announce the<br>
+               arrival of the demoniacal corpse to<br>
+               which I had so miserabl<del class="#PBS">e</del>y given life.<br>
+               <span class="indented">Oh! no mortal could support </span><br>
+               the horror of that countenance.a<br>
+               mummy⁁<span class="supraAdd">again</span>endued with<del class="#MWS">life</del><span class="supraAdd">animation</span>could not be<br>
+               
+            </p>
+         </div>
+         
       </div>
-    </div>
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src="/js/script.js"></script>
-  </body>
+   </body>
 </html>

@@ -10,16 +10,28 @@
   <xsl:template match="/">
     <html>
       <head>
+        <div id="mirador" style="width: 100%; height: 600px;"></div>
         <meta charset="UTF-8"/>
         <title>Frankenstein TEI Edition</title>
-        <!-- CSS relative to XML location (/xml --> ../css/style.css) -->
         <link rel="stylesheet" href="../css/style.css"/>
+        <link rel="stylesheet" href="https://unpkg.com/mirador/dist/mirador.min.css"/>
+        <script src="https://unpkg.com/mirador/dist/mirador.min.js"></script>
       </head>
       <body>
         <!-- Render metadata -->
         <xsl:apply-templates select="//tei:teiHeader"/>
         <!-- Render main text body -->
         <xsl:apply-templates select="//tei:body"/>
+        <script>
+          Mirador.viewer({
+            id: "mirador",
+            windows: [
+              {
+                loadedManifest: "YOUR_MANIFEST_URL"
+              }
+            ]
+          });
+        </script>
       </body>
     </html>
   </xsl:template>

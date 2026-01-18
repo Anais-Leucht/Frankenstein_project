@@ -1,6 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
+<html xmlns:tei="http://www.tei-c.org/ns/1.0">
+   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8".>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
@@ -16,11 +15,11 @@
     <script src="/js/script.js"></script>
 
   </head>
-  <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+   <body>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <a class="navbar-brand" href="#">Frankenstein</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+      <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav">
@@ -45,28 +44,81 @@
         </ul>
       </div>
     </nav>
-    <div class="container-fluid">
-      <h1>Frankenstein Volume I Draft in Chapter Sequence</h1>
-      <span style="visibility:hidden" id='page'>52</span>
-      <h2 id='folio'>25r</h2> <!-- you can style this h2 element differently, but you should keep the id="folio" and the elements value *unchanged* -->
-      <div id="stats"></div>
-      <div class="form-group">
-        <select class="form-control" id="sel-hand" onChange="selectHand(event)">
-          <option value="both">Both Hands</option>
-          <option value="Mary">Mary Shelley's Hand Highlighted</option>
-          <option value="Percy">Percy Shelley's Hand Highlighted</option>
-        </select>
+      <div class="tei-header">
+         <h2>About this Manuscript</h2>
+         <table class="metadata">
+            <tr>
+               <th>Title</th>
+               <td>Frankenstein</td>
+            </tr>
+            <tr>
+               <th>Author</th>
+               <td>Mary Wollstonecraft Shelley</td>
+            </tr>
+            <tr>
+               <th>Editor</th>
+               <td>Percy Bysshe Shelley</td>
+            </tr>
+            <tr>
+               <th>Licence</th>
+               <td>
+                  Original text by Mary Shelley (1816). Public domain, under a CC-BY-NC 4.0 licence.
+                  
+               </td>
+            </tr>
+         </table>
+         <ul>
+            <li>Total modifications: 11</li>
+            <li>Total additions: 5</li>
+            <li>Mary: 7</li>
+            <li>Percy: 4</li>
+         </ul>
       </div>
-      <div class="row">
-        <div class="col-5">   
-            <div id="my-mirador"></div>
-        </div>
-        <div class="col-7" id="text"></div>
+      <div class="tei-body">
+         
+         <div class="tei-div">
+            <span class="circledPage"></span>
+            <span class="circled">83</span>
+            
+            <p>
+               believe that so great a good fortune<br>
+               could have befallen me; but when<br>
+               I<del class="#PBS">was</del><span class="supraAdd">became</span>assured that my enemy had<br>
+               indeed fled, I clapped my hands for<br>
+               joy and ran down to Henry.<br>
+               <span class="indented">We ascended into my room &amp; present</span><br>
+               ly the servant brought breakfast:<br>
+               but I was unable to contain my-<br>
+               self. It was not joy only that possess-<br>
+               -ed me,–I felt my flesh tingle with<br>
+               the excess of sensitiveness and my<br>
+               pulse beat rapidly. I was unable to<br>
+               remain for a single instant in<br>
+               the same place — I jumped over<br>
+               the chairs, clapped my hands &amp; laughed<br>
+               aloud. Clerval at first attributed<br>
+               my unusual spirits to joy<del class="#MWS">at</del><span class="supraAdd">on</span>his<br>
+               arrival– but when <del class="#MWS">saw</del> he observed<br>
+               me ⁁^<span class="supraAdd">more attentively</span>he saw a wildness in my eyes for<br>
+               which he could not account and<br>
+               my loud unrestrained heartless laugh<br>
+               -ter frightened and astonished him.<br>
+               <span class="indented">My dear Frankenstein," cried he "What</span><br>
+               for God's sake is the matter <del class="#MWS">for</del> do not<br>
+               laugh so – <del class="#MWS">What has</del> How ill you are!<br>
+               What is the cause of all this?<br>
+               <span class="indented">Do not ask me cried I, putting my</span><br>
+               hands <del class="#MWS">fef</del> before my eyes, for I thought<br>
+               I saw <span class="u">the spectre</span> glide into the<br>
+               
+            </p>
+            
+         </div>
+         
       </div>
-    </div>
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src="/js/script.js"></script>
-  </body>
+   </body>
 </html>
