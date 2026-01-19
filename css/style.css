@@ -90,8 +90,10 @@ body.index-page .col {
 }
 
 #mirador {
-  height: 500px;   /* adjust as needed */
+  height: 600px;
   width: 100%;
+  border: 1px solid #ccc;
 }
+
 
 
